@@ -1,0 +1,190 @@
+.navbar-custom {
+    background-color: #003366;  
+  }
+
+  
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: antiquewhite !important;
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  
+.dropdown-menu {
+    background-color: #1589c4 !important;  
+  }
+  
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif  
+  }
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #003366;  /* cuando el ratón está sobre el ítem */
+    color: #ffffff;
+  }
+
+.logo {
+    height: 100px;  
+    width: 105px;   
+    margin-bottom: -45px;  
+    border-radius: 25%;
+}
+
+.presentacion {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #2f0a93;
+    color: #ffffff;
+    padding: 30px;
+    
+}
+
+footer {
+    background-color: #2f0a93;
+    padding: 30px;
+}
+
+.inferior img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.contact-item {
+    text-align: center;  /* Centra el texto y las imágenes */
+    margin: 50px;  /* Margen entre los elementos */
+    color: white;
+  }
+
+.contact-item h5 {
+    margin-top: 15px;
+}
+
+.inferior {
+    display: flex;  /* Usamos flexbox para colocar los elementos en fila */
+    justify-content: space-around;  /* Distribuye los elementos con espacio alrededor */
+    align-items: center;  /* Alinea los elementos verticalmente al centro */
+    flex-wrap: wrap;  /* Permite que los elementos se muevan a la siguiente fila si es necesario */
+}
+
+.sobre-nosotros {
+    background-color: #323335; /* Fondo de color azul oscuro */
+    color: white; /* Color de texto blanco para que contraste */
+}
+
+.sobre-nosotros h1 {
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nosotros {
+    background-color: #575a5d;
+    text-align: center;
+}
+    
+.nosotros h1 {
+    padding: 10px;
+    color:#ffffff;
+}
+
+.nosotros h3 {
+    color: #ffffff;
+}
+ 
+  .accordion-button.collapsed {
+    background-color: #0c74c3; /* Fondo cuando el item está cerrado */
+    color: white; /* Color del texto */
+  }
+
+  .accordion-body {
+    background-color: #2f0a93; /* Fondo del contenido */
+    color: #ffffff; /* Color del texto */
+  }
+
+.titulo {
+ margin-top: 35px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    text-align: left;
+    padding: 35px;
+    margin-bottom: -1px;
+}
+
+.titulo-service{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+
+}
+
+.sec-service{
+  background-color: #0c74c3;
+}
+
+.row {
+  color: #ffffff;
+  font-size:x-large;
+
+}
+
+.col {
+  text-align: center;
+  
+}
+
+.img1 {
+  border-radius: 25%;
+  padding: 30px;
+  width: 600px;
+  height: 450px;
+}
+
+#text1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.paf {
+  text-align: justify;
+  line-height: 1.1;     /* Opcional: ajusta la altura de las líneas para mejorar la legibilidad */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  background-color: #2595f1;
+  padding: 20px;
+  border-radius: 10%;
+  min-height: 300px;
+  height: 490px;
+  font-size: 22px;
+  color: #350ba9;
+}
+
+body {
+  background-color: #3b5269;
+}
+.register-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: rgb(177, 184, 197);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container{
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: rgb(177, 184, 197);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

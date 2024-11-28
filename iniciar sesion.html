@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.jpg" alt="Logotipo" class="logo">
+            </a>
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Sobre-nosotros.html">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INGRESAR
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="iniciar sesion.html">Iniciar sesión</a></li>
+                    <li><a class="dropdown-item" href="registrarse.html">Registrarse</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex ms-auto" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <div class="login-container">
+        <h2 class="text-center">Iniciar Sesión</h2>
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control w-50 mx-auto" id="email" placeholder="Introduce tu correo" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control w-50 mx-auto" id="password" placeholder="Introduce tu contraseña" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block w-50 mx-auto">Iniciar Sesión</button>
+            <div class="text-center mt-3">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+        </form>
+    </div>
+
+<!-- Enlace a Bootstrap JS y dependencias (opcional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="inferior">
+            <!-- Instagram -->
+            <div class="contact-item">
+              <img class="contact" src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-logotipo-de-icono-de-instagram.png?w=360" alt="Logotipo de Instagram">
+              <h5>Galaxy.Official</h5>
+            </div>
+  
+            <!-- Twitter (X) -->
+            <div class="contact-item">
+              <img class="contact" src="https://pbs.twimg.com/media/F1zrsq8XsAUU7Lw?format=jpg&name=large" alt="Logo de X (Twitter)">
+              <h5>Galaxy.X</h5>
+            </div>
+  
+            <!-- WhatsApp -->
+            <div class="contact-item">
+              <img class="contact" src="https://w7.pngwing.com/pngs/849/473/png-transparent-gloss-media-social-square-whatsapp-miu-square-gloss-social-icon.png" alt="Logotipo de WhatsApp">
+              <h5>5010356645</h5>
+            </div>
+  
+            <!-- Gmail -->
+            <div class="contact-item">
+              <img class="contact" src="https://thumbs.dreamstime.com/b/logo-de-gmail-google-llc-aplicaciones-lotipos-oficiales-apps-kiev-ucrania-octubre-199945501.jpg" alt="Logotipo de Gmail">
+              <h5>Galaxy.corp@gmail.net</h5>
+            </div>
+  
+            <!-- TikTok -->
+            <div class="contact-item">
+              <img class="contact" src="https://img.freepik.com/psd-premium/icono-tik-tok-aislado-sobre-fondo-blanco-logotipo-tiktok-aplicacion-redes-sociales-signo-logotipo-boton-redondo_989822-4808.jpg" alt="Logotipo de TikTok">
+              <h5>Galaxy.TickTock</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
